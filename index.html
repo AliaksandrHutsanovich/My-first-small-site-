@@ -1,0 +1,125 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<title>Sells of transport</title>
+<link rel="stylesheet" href="StyleK1.css">
+<script src="jquery-3.2.0.min.js"></script>
+</head>
+<body id="pos10">
+<div id="container">
+    </div>
+
+<script src="/bundle1.js"></script>
+
+
+<script src="https://unpkg.com/react@15/dist/react.js"></script>
+<script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.38/browser.min.js"></script>
+
+
+<script>
+jQuery(document).ready(function(){
+    $("#pos1").css('position', 'fixed');
+    $("#pos1").css('top', '110px');
+    $("#pos1").css('left', '525px');
+    $("h1:contains('Log on')").css('position', 'fixed');
+    $("h1:contains('Log on')").css('color', 'red');
+    $("h1:contains('Log on')").css('font-family','calibri');
+    $("h1:contains('Log on')").css('font-size','45px');
+
+    $("p:contains('name')").css('position', 'fixed');
+    $("p:contains('name')").css('top', '180px');
+    $("p:contains('name')").css('left', '575px');
+    $("p:contains('name')").css('color', 'yellow');
+    $("p:contains('name')").css('font-family','times');
+    $("p:contains('name')").css('font-size','30px');
+
+    $("#pos4").css('position', 'fixed');
+    $("#pos4").css('top', '215px');
+    $("#pos4").css('left', '525px');
+
+    $("#pos2").css('position', 'fixed');
+    $("#pos2").css('top', '250px');
+    $("#pos2").css('left', '600px');
+
+    $("p:contains('password')").css('position', 'fixed');
+    $("p:contains('password')").css('top', '320px');
+    $("p:contains('password')").css('color', 'blue');
+    $("p:contains('password')").css('font-family','arial');
+    $("p:contains('password')").css('font-size','30px');
+
+    $("#pos5").css('position', 'fixed');
+    $("#pos5").css('top', '355px');
+    $("#pos5").css('left', '525px');
+
+    $("#pos3").css('position', 'fixed');
+    $("#pos3").css('top', '390px');
+    $("#pos3").css('left', '600px');
+
+    $("#pos9").css('position', 'fixed');
+    $("#pos9").css('top', '425px');
+    $("#pos9").css('left', '500px');
+    $("#pos9").css('color', 'yellow');
+    $("#pos9").css('font-size','30px');
+    $("p:contains('answer')").css('display','none');
+
+    $("button:contains('Log on')").css('position', 'fixed');
+    $("button:contains('Log on')").css('top', '460px');
+    $("button:contains('Log on')").css('left', '650px');
+    $(":button").css('width','100px');
+    $(":button").css('height','50px');
+    $(":button").css('font-style','italic');
+    $(":button").css('font-size','25px');
+    $(":button").css('color','black');
+    $(":button").css('background','linear-gradient(20deg, rgba(0, 255, 255, 0.9), rgba(0, 128, 0, 0.4))');
+});
+
+jQuery(document).ready(function(){
+    
+    
+    $("#pos3").focus(function(){
+                 $("#pos5").html("<p>Password shold consist from english letters or numbers</p>");
+                 $("#pos5").css('background-color','green');
+                 $("#pos5").hide();
+                 $("#pos5").slideDown();
+                 
+                              });
+    $("#pos3").blur(function(){
+                 $("#pos5").slideUp();
+                              });
+    });
+
+jQuery(document).ready(function(){
+    $("#pos2").focus(function(){
+                 $("#pos4").html("<p>Login shold consist from english letters or numbers</p>");
+                 $("#pos4").css('background-color','green');
+                 $("#pos4").hide();
+                 $("#pos4").slideDown();
+                 
+                              });
+    $("#pos2").blur(function(){
+                 $("#pos4").slideUp();
+                              });
+    });
+
+    focusMethod1=function getFocus(){
+         document.getElementById("pos3").focus();
+        }
+
+    focusMethod2=function getFocus(){
+         document.getElementById("pos2").focus();
+        }
+
+jQuery(document).ready(function(){
+     for (var i=0;i<300;i++){
+     $("#pos7").animate({opacity: 0}, {duration: 5000})
+               .closest("#pos6").animate({opacity: 0}, {duration: 10000})
+                               .animate({opacity: 1}, {duration: 5000})
+       .find("#pos7").animate({opacity: 1}, {duration: 15000});
+                   }
+                  });
+
+</script>
+
+</body>
+</html>

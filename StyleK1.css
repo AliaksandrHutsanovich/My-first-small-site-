@@ -1,0 +1,241 @@
+* {
+    vertical-align: baseline;
+    font-family: inherit;
+    font-size: 100%;
+    border: none;
+    padding: 0;
+    margin:0;
+}
+
+#pos10 {
+    background-image: url(back1.jpg);
+    background-size: 1400px 640px;
+    background-repeat: no-repeat;
+}
+
+#pos6 {
+    width: 1364px;
+    height: 638px;
+    background-image: url(back2.jpg);
+    background-size: 1364px 638px;
+    background-repeat: no-repeat;
+}
+
+#pos7 {
+    width: 1360px;
+    height: 632px;
+    background-image: url(back3.jpg);
+    background-size: 1360px 632px;
+    background-repeat: no-repeat;
+}
+
+#pos11 {
+    position: relative;
+    z-index: 3;
+    top: 60px;
+    left: 60px;
+}
+
+#pos12 {
+    position: relative;
+    z-index: 2;
+    top: -15px;
+    left: 240px;
+}
+
+#pos13 {
+    position: relative;
+    z-index: 1;
+    top: -75px;
+    left: 440px;
+}
+
+#pos14 {
+     position: fixed;
+     top: 400px;
+     left: 1000px;
+}
+
+#pos15 {
+     content: url(1.jpg);
+     width: 310px;
+     height: 170px;
+}
+
+#pos16 {
+     content: url(2.jpg);
+     width: 310px;
+     height: 170px;
+}
+
+#pos17 {
+     content: url(3.jpg);
+     width: 310px;
+     height: 170px;
+}
+
+#pos15:hover, #pos16:hover, #pos17:hover {
+     background-color: red;
+     border: 3px dashed green;
+     width: 460px;
+     height: 270px;
+     transition-duration: 3s;
+}
+
+#pos11:hover, #pos12:hover, #pos13:hover {
+     z-index: 5;
+}
+
+
+#pos18 {
+     text-align: center;
+     font-style: italic;
+     background: linear-gradient(20deg, yellow, aqua);;
+     border-radius: 8px;
+}
+
+#pos18 tr td a:hover {
+     font-size: 20px;
+     color: green;
+     box-shadow: 10px 10px 10px red;  
+     background-color: blue;
+     transition-duration: 2s;  
+}
+
+h1.r1 {
+    font-style: italic;
+    color: green;
+    box-shadow: -10px -10px 10px blue;
+    background-color: yellow;
+}
+
+#pos19 {
+    background: url(back4.jpg);
+    background-size: 1400px 640px;
+    background-repeat: no-repeat;
+}
+
+h1.r2 {
+   font-style: italic;
+   font-family: times;
+   color: aqua;
+   position: absolute;
+   font-size: 70px;
+   top: 50px;
+   left: 500px;
+   box-shadow: -10px -10px 10px blue;
+   text-shadow: 10px 10px 30px green;
+}
+
+h1.r3 {
+   font-style: italic;
+   font-family: times;
+   color: red;
+   position: absolute;
+   font-size: 70px;
+   top: 150px;
+   left: 700px;
+   box-shadow: -10px -10px 10px green;
+   text-shadow: 10px 10px 30px blue;
+}
+
+
+h1.r4 {
+   font-style: italic;
+   font-family: times;
+   color: yellow;
+   position: absolute;
+   font-size: 70px;
+   top: 250px;
+   left: 900px;
+   box-shadow: -10px -10px 10px blue;
+   text-shadow: 10px 10px 30px red;
+}
+
+#pos20 {
+    height: 640px;
+    width: 1400px;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    background-image: url(back1.jpg);
+    background-size: 1400px 640px;
+    background-repeat: no-repeat;
+}
+
+#pos21 {
+    font-style: italic;
+    font-family: times;
+    color: OliveDrab;
+    position: absolute;
+    font-size: 70px;
+    top: 50px;
+    left: 350px;
+    box-shadow: -10px -10px 10px LightPink;
+    text-shadow: 10px 10px 30px green;
+}
+
+#pos22 {
+    font-style: italic;
+    font-family: times;
+    color: OliveDrab;
+    position: absolute;
+    font-size: 70px;
+    top: 150px;
+    left: 450px;
+    box-shadow: -10px -10px 10px LightPink;
+    text-shadow: 10px 10px 30px green;
+}
+
+
+#pos23 {
+   position: relative;
+   z-index: 5;
+   left: 200px; 
+}
+
+td.r5 {
+   width: 1000px;
+   height: 400px;
+}
+
+td.r6 th {
+   width: 125px; 
+   background-color: rgba(192, 192, 192, 0.5);
+}
+
+#pos24 {
+    height: 640px;
+    width: 1400px;
+    position: fixed;
+    z-index: 1;
+    background-image: url(back2.jpg);
+    background-size: 1400px 640px;
+    background-repeat: no-repeat;
+}
+
+#pos25 {
+    height: 640px;
+    width: 1400px;
+    position: fixed;
+    z-index: 1;
+    background-image: url(back3.jpg);
+    background-size: 1400px 640px;
+    background-repeat: no-repeat;
+}
+
+th {
+    color: yellow;
+}
+
+#pos26 {
+    width: 100px;
+    height: 50px;
+    font-style:italic;
+    font-size: 25px;
+    background: linear-gradient(20deg, rgba(0, 255, 255, 0.9), rgba(0, 128, 0, 0.4));
+}
+
+td.r6 table tbody {
+    color: yellow;
+}
